@@ -11,5 +11,4 @@ def plot_all_losses(total_losses, recon_losses, kld_losses, title="Training Loss
     plt.grid(True)
     plt.show()
 
-# Example usage:
-# plot_all_losses(train_losses_beta1, recon_losses_beta1, kld_losses_beta1, title="Beta=1.0 Training Losses")
+plot_all_losses(train_losses_beta1, recon_losses_beta1, kld_losses_beta1, title="Beta=1.0 Training Losses")

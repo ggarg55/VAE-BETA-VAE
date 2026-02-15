@@ -9,5 +9,5 @@ def compare_beta_curves(train_losses_beta1, train_losses_beta5):
     plt.grid(True, alpha=0.3)
     plt.show()
 
-# Example usage:
-# compare_beta_curves(train_losses_beta1, train_losses_beta5)
+
+compare_beta_curves(train_losses_beta1, train_losses_beta5)
